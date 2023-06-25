@@ -19,7 +19,7 @@ const Hero = () => {
               <span className="flex gap-3 flex-row absolute bottom-[3px] left-[120px]">
                 <Link href="">
                   <Image
-                    src="/Github.svg"
+                    src="/github.svg"
                     alt="github"
                     width={30}
                     height={30}

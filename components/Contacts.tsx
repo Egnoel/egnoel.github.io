@@ -41,7 +41,7 @@ const Contacts = () => {
               <span>
                 <Link href="https://github.com/Egnoel" target="_blank">
                   <Image
-                    src="/Github.svg"
+                    src="/github.svg"
                     alt="github"
                     width={30}
                     height={30}
