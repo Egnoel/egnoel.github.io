@@ -1,8 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    domains: ['tenor.com'],
+const path = require('path')
+ 
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
   },
-};
-
-module.exports = nextConfig;
+  images: {
+    domains: ['media.dev.to', 'avatars.githubusercontent.com', 'github-readme-stats.vercel.app', 'github-readme-streak-stats.herokuapp.com', 'stardev.io', 'github-profile-summary-cards.vercel.app', 'github-profile-trophy.vercel.app'],
+    dangerouslyAllowSVG: true,
+  }
+}
