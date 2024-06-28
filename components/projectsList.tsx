@@ -11,7 +11,7 @@ interface ProjectsListProps {
 const ProjectsList = ({data}: ProjectsListProps) => {
     const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 7;
-  
+
   const totalPages = Math.ceil(data.length / itemsPerPage);
 
   const handleNextPage = () => {
