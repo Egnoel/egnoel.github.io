@@ -7,7 +7,7 @@ const TechStack = ({ id }) => {
     { name: 'Tailwind CSS', icon: '/tailwindcss.png' },
     {
       name: 'JavaScript',
-      icon: '/javaScript.png',
+      icon: '/JavaScript.png',
     },
     { name: 'Solidity', icon: '/solidity.svg' },
     { name: 'Foundry', icon: '/foundry.png' },
